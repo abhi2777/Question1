@@ -16,20 +16,18 @@ If there had been customers making purchases during the last 30 days, the query 
 
 #Ans 2.
 As in the question it is asked that we have to print most purchased product till date so for this we join the products table and order_items table for finding the required output. 
-As there are 5 products with purchasing quantity till date 
+As there are 5 products with purchasing quantity till date
+
 Laptop: 3
+
 Smartphone: 3
+
 Headphones: 4
+
 Running Shoes: 2
+
 Backpack: 4
 
 Both the Headphones and Backpack have the highest purchase quantities, with a total of 4 each. Therefore, the query should return both products as they are tied for the most purchased products till date.
-OUTPUT:
-+------------+--------------+----------------+
-| product_id | product_name | total_quantity |
-+------------+--------------+----------------+
-|          5 | Backpack     |              4 |
-|          3 | Headphones   |              4 |
-+------------+--------------+----------------+
  
 
